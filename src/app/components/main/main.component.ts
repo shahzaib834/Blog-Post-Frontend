@@ -73,9 +73,18 @@ export class MainComponent implements OnInit {
   }
 
 ];
+  public modalOpened: boolean = false;
+
 
   constructor() { }
 
+  openModal() {
+    this.modalOpened = true;
+  }
+
+  closeModal() {
+    this.modalOpened = false
+  }
   ngOnInit(): void {
   }
 
