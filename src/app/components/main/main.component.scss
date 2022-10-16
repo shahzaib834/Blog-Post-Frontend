@@ -1,0 +1,42 @@
+$base-color: #2f68bd;
+select {
+    border-radius: 5px;
+  
+}
+input {
+    width: 60%;
+}
+
+.searchBarContainer {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    gap: 5px;
+    justify-content: center;
+}
+
+.contentContainer {
+    margin-top: 5px;
+}
+
+.buttonsContainer {
+    display: flex;
+    gap: 5px;
+    margin-top: 25px;
+    justify-content: center;
+}
+.button {
+    background-color: $base-color;
+    color: #fff;
+    width: 10%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    height: inherit;
+}
+
+img {
+    height: 150px;
+}
