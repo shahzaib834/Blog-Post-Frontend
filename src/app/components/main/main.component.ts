@@ -74,11 +74,12 @@ export class MainComponent implements OnInit {
 
 ];
   public modalOpened: boolean = false;
-
+  public selectedModalType: string = '';
 
   constructor() { }
 
-  openModal() {
+  openModal(type: string) {
+    this.selectedModalType = type;
     this.modalOpened = true;
   }
 

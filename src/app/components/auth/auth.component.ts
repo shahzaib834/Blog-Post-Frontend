@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./auth.component.scss']
 })
 export class AuthComponent implements OnInit {
-  authMode:string = 'Sign In'
+  authMode: string = 'Sign In'
   authMessage: string = 'Already have an account. Sign in instead'
 
 

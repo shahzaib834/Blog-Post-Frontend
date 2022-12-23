@@ -9,6 +9,4 @@ export class AppComponent {
   title = 'Blog-Post-Frontend';
   isLoggedIn: boolean = true;
 
-
-
 }

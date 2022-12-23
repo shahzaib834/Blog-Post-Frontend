@@ -5,7 +5,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AuthComponent } from './components/auth/auth.component';
 import { MainComponent } from './components/main/main.component';
-import { NavbarComponent } from './components/layout/navbar/navbar.component';
+import { NavbarComponent } from './components/main/navbar/navbar.component';
+import { ItemComponent } from './components/main/Item/item.component';
 
 @NgModule({
   declarations: [
@@ -13,6 +14,7 @@ import { NavbarComponent } from './components/layout/navbar/navbar.component';
     AuthComponent,
     MainComponent,
     NavbarComponent,
+    ItemComponent,
   ],
   imports: [
     BrowserModule,
