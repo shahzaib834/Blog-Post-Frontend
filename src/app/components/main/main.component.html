@@ -87,7 +87,7 @@
       <div class="card-body">
         <h5 class="card-title">{{ blog.title }}</h5>
         <p class="card-text">{{ blog.description.slice(0, 50) }}</p>
-        <a [routerLink]="'/item/1'" class="btn btn-sm btn-outline-secondary">View More...</a>
+        <a (click)="onSelect(blog)" class="btn btn-sm btn-outline-secondary">View More...</a>
       </div>
     </div>
   </div>
